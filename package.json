@@ -1,6 +1,6 @@
 {
   "name": "reportkeeper",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Report Keeper crossplatform app.",
   "repository": "https://github.com/Nekkiton/ReportKeeper.git",
   "main": "main.js",
@@ -41,6 +41,7 @@
     },
     "win": {
       "target": [
+        "zip",
         "nsis"
       ]
     }
